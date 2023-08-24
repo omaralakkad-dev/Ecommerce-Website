@@ -1,0 +1,60 @@
+.hero {
+  position: relative;
+}
+.hero-text {
+  position: absolute;
+  top: 40%;
+  left: 5%;
+}
+.offers {
+  font-size: 4rem;
+}
+.offers span {
+  color: #088178;
+  font-size: 4rem;
+}
+
+.shop-now-btn {
+  background-image: url("../img/button.png");
+  padding: 14px 80px 14px 65px;
+  background-color: transparent;
+  color: #088178;
+  border: 0;
+  background-repeat: no-repeat;
+  font-weight: bold;
+}
+
+.new-offer {
+  font-size: 1.2rem;
+  color: grey;
+}
+
+@media (max-width: 927px) {
+  .offers {
+    font-size: 2rem;
+  }
+  .offers span {
+    font-size: 2rem;
+  }
+
+  .hero-text {
+    position: absolute;
+    top: 30%;
+    left: 10%;
+  }
+}
+
+@media (max-width: 549px) {
+  .offers {
+    font-size: 1rem;
+  }
+  .offers span {
+    font-size: 1rem;
+  }
+
+  .hero-text {
+    position: absolute;
+    top: 15%;
+    left: 5%;
+  }
+}

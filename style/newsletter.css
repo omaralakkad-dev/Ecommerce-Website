@@ -1,0 +1,53 @@
+.newsletter-container {
+  height: 40vh;
+  width: 100%;
+  background-image: url("/img/banner/b1.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.head-letter {
+  font-weight: bold;
+  font-size: 2rem;
+  color: white;
+  text-align: center;
+}
+
+.letter-p {
+  font-size: 1.3rem;
+  color: rgb(186, 186, 186);
+  text-align: center;
+}
+
+.letter-p span {
+  color: orange;
+}
+.form {
+  display: flex;
+}
+.form input {
+  width: 100%;
+  padding: 15px 20px;
+  border-radius: 5px 0px 0px 5px;
+}
+.sign-up-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+  text-align: start;
+  padding: 10px 20px;
+  width: 150px;
+  border: none;
+  text-align: center;
+  border-radius: 0px 5px 5px 0px;
+  background-color: #088178;
+  font-weight: bold;
+}

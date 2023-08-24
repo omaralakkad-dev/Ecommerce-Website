@@ -1,0 +1,31 @@
+.service-card {
+  height: 250px;
+  width: 200px;
+  border: rgb(221, 221, 221) solid 1px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.5s;
+}
+
+.service-card:hover {
+  box-shadow: 10px 10px 54px rgba(70, 62, 221, 0.1);
+}
+
+.service-btn {
+  padding: 5px 20px;
+  color: #088178;
+  background-color: rgb(250, 197, 206);
+  text-decoration: none;
+  margin-top: 20px;
+}
+
+.services-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}

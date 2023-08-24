@@ -1,0 +1,45 @@
+.promotion-section {
+  margin-top: 150px;
+}
+
+.promotion {
+  height: 200px;
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.promotion-details {
+  position: absolute;
+  color: white;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  align-items: center;
+  padding: 10px;
+  text-align: center;
+}
+.promotion-details span {
+  color: red;
+}
+.promotion-image {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.explore-more-btn {
+  text-decoration: none;
+  background-color: white;
+  padding: 10px 25px;
+  border-radius: 5px;
+  color: black;
+  transition: all 0.5s;
+}
+
+.explore-more-btn:hover {
+  transform: scale(1.07);
+}

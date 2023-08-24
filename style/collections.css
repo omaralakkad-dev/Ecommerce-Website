@@ -1,0 +1,35 @@
+.left {
+  background-color: aqua;
+  height: 300px;
+
+  background-image: url("/img/banner/b7.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.middle {
+  background-color: red;
+  height: 300px;
+  background-image: url("/img/banner/b4.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.right {
+  background-color: black;
+  height: 300px;
+
+  background-image: url("/img/banner/b18.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.custom-one {
+  color: rgb(162, 18, 18);
+  font-weight: bold;
+  font-size: 1.4rem;
+  margin-top: 20px;
+}
